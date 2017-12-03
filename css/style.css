@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+html,body{
+	width:100%;
+}
+body{
+	position:relative;
+}
+
+#menu
+{
+	margin-top:100px;
+	text-align: center;	
+}
+#myselect
+{
+	margin-left:300px;
+}
+#container
+{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	margin:30px auto;
+	width: 300px;
+	height: 300px;
+	border:1px solid black;
+
+}
+
+span
+{
+	
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.snake
+{
+	position:absolute;
+	background-color: black;
+}
+.food
+{
+	position:absolute;
+	background-color: blue;
+}
